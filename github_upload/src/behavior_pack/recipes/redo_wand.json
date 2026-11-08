@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "undo:craft_redo_wand_v3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      "minecraft:glowstone_dust",
+      "minecraft:stick",
+      "minecraft:string"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:glowstone_dust"
+      }
+    ],
+    "result": {
+      "item": "undo:redo_wand",
+      "count": 1
+    }
+  }
+}

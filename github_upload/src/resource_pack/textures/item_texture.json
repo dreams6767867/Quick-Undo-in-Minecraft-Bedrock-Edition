@@ -1,0 +1,18 @@
+{
+  "resource_pack_name": "undo_redo",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "undo_wand": {
+      "textures": "textures/items/undo_wand"
+    },
+    "redo_wand": {
+      "textures": "textures/items/redo_wand"
+    },
+    "undo:undo_wand": {
+      "textures": "textures/items/undo_wand"
+    },
+    "undo:redo_wand": {
+      "textures": "textures/items/redo_wand"
+    }
+  }
+}

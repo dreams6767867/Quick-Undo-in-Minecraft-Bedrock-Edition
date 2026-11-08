@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "快速撤销 · 资源包（1.21.40～1.21.59 兼容）",
+    "description": "兼容 1.21.40～1.21.59（1.21.60+ 请用兼容1.21.0版）：撤销红石粉+木棍+线，重做萤石粉+木棍+线，工作台无序合成。\n手机设置：/scriptevent undo:time 10（分钟）或 undo:steps 30（步数）；/scriptevent undo:config 查看；/scriptevent undo:reset 恢复默认。需开启作弊。",
+    "uuid": "9711e541-eae7-433f-af6d-af633bdddb2b",
+    "version": [3, 0, 0],
+    "min_engine_version": [1, 21, 40]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "4dd66a3d-20d5-433d-8f06-6f8d3bbaad29",
+      "version": [3, 0, 0],
+      "description": "撤销 / 重做贴图"
+    }
+  ],
+  "metadata": {
+    "authors": ["DSH"],
+    "license": "MIT",
+    "product_type": "addon"
+  }
+}

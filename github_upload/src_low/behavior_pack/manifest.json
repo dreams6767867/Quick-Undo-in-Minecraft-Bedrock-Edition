@@ -1,0 +1,31 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "快速撤销（基岩版 · 1.21.0～1.21.89 兼容）",
+    "description": "兼容 1.21.0～1.21.89（1.21.60+ 推荐）：撤销红石粉+木棍+线，重做萤石粉+木棍+线，工作台无序合成。\n手机设置：/scriptevent undo:time 10（分钟）或 undo:steps 30（步数）；/scriptevent undo:config 查看；/scriptevent undo:reset 恢复默认。需开启作弊。",
+    "uuid": "c1ec35d2-a0a3-47ba-a14e-9109b010b40c",
+    "version": [3, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "2041010b-8ae4-4936-a578-0e9a0ce55b60",
+      "version": [3, 0, 0],
+      "entry": "scripts/main.js",
+      "description": "撤销 / 重做逻辑"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.11.0"
+    }
+  ],
+  "metadata": {
+    "authors": ["DSH"],
+    "license": "MIT",
+    "product_type": "addon"
+  }
+}
